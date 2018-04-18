@@ -1,0 +1,29 @@
+[
+	{
+		"region": "Asia/Taipei",
+		"lat": 25.032969,
+		"lng": 121.565418,
+		"current": {
+			"precipType": "rain",
+			"temperature": 67.02
+		}
+	},
+	{
+		"region": "Asia/Tokyo",
+		"lat": 35.689487,
+		"lng": 139.691706,
+		"current": {
+			"precipType": "rain",
+			"temperature": 54.34
+		}
+	},
+	{
+		"region": "America/New_York",
+		"lat": 40.712775,
+		"lng": -74.005973,
+		"current": {
+			"precipType": "rain",
+			"temperature": 43.26
+		}
+	}
+]

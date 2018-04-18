@@ -10,9 +10,13 @@
 
 #### Features 
 
-1. promise & async/await replace callback almost 
+1. promise (use bluebird) & async/await replace callback almost 
 
 2. reduce redundant code
+
+3. arrow function applied
+
+4. ES6 class model applied
 
 #### Refs
 

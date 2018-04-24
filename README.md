@@ -18,6 +18,8 @@
 
 4. ES6 class model applied
 
+5. for reactapp > npm run client 
+
 #### Refs
 
 1. Node.js 实战开发(簡) 

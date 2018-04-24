@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "debug": "node --nolazy --inspect-brk=9229 index.js"
+    "debug": "node --nolazy --inspect-brk=9229 index.js",
+    "client-dev":"npm start --prefix reactapp",
+    "client":"npm run 'client-dev'"
   },
   "keywords": [],
   "author": "",

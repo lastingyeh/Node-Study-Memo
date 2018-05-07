@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang='us'>
+<%- include('./public/head.ejs') %>
+<body>
+    <%- include('./public/header.ejs') %>
+    <section class='main floatfix'>
+        <%- include('./public/aside.ejs') %>
+        <section class='main-articles articles'>
+            <section class='main-articles-title'>
+                <h2> <%=article.articleTitle %></h2>
+                <p>
+                    <span>Author: <%=article.articleAuthor %></span>
+                    <span>Published: <%=article.articleTime %></span>
+                    <span>Visitors: <%=article.articleClick %></span>
+                </p>
+            </section>
+            <section class='main-articles-content'>
+                <p><%=article.articleContent %></p>
+            </section>
+        </section>
+    </section>
+    <%- include('./public/footer.ejs') %>
+</body>
+</html>

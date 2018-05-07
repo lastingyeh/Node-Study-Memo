@@ -2,4 +2,3 @@
 global.Promise = require('bluebird');
 // entry lab
 // require('./database-lab');
-

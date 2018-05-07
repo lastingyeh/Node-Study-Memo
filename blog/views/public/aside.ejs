@@ -1,0 +1,26 @@
+<aside>
+      <section class='main-aside-avatar'>
+        <a href='/'>
+          <img src='/img/avatar.jpeg' alt=''>
+        </a>  
+      </section>
+      <ul>
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="/about">About</a>
+        </li>
+        <li>
+          <a href="/friends">links</a>
+        </li>
+        <li>
+          <a href="/edit">Add</a>
+        </li>
+        <% if(user) { %>
+          <li><a href="/logout">logout</a></li>
+        <% } else { %>
+          <li><a href="/login">login</a></li>
+        <% } %>
+      </ul>
+</aside>

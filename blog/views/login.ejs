@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./public/head.ejs')%>
+
+<body>
+    <section class='login'>
+        <form action="/login" method="POST">
+            <div class="form-group">
+                <input type="text" name="name" placeholder="UserName">
+            </div>
+            <div class="form-group">
+                <input type="password" name="password" placeholder="Password">
+
+                <%if(message){ %>
+                    <p>
+                        <%= message %>
+                    </p>
+                <% } %>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Login">
+            </div>
+        </form>
+        <%- include('./public/footer.ejs')%>
+    </section>
+    
+</body>
+
+</html>

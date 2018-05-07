@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang='us'>
+<%- include('./public/head.ejs') %>
+<body>
+    <%- include('./public/header.ejs') %>
+    <section class='main floatfix'>
+        <%- include('./public/aside.ejs') %>
+        <section class='main-articles friends'>
+            <form action='' method='POST' class='edit'>
+                <div class='form-group'>
+                    <label for=''>Title</label>
+                    <input type='text' name='title' value='<%= title %>'>
+                </div>
+                <div class='text-group'>
+                    <label for=''>Content</label>
+                    <textarea name='content'><%= content %></textarea>
+                </div>
+                <p><input type='submit' value='Save'></p>
+            </form>
+        </section>
+    </section>
+    <%- include('./public/footer.ejs') %>
+</body>
+</html>
